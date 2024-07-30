@@ -67,7 +67,7 @@ def show_AI_Bot():
             
             if query:
                 try:
-                    docs = vectorstore.similarity_search(query=query, k=3)
+                    docs = vectorstore.similarity_search(query=query, k=3)# k=3 for top 3 similar chunks
                     
                     llm = OpenAI(api_key=openai_api_key)
                     chain = load_qa_chain(llm=llm, chain_type="stuff")
