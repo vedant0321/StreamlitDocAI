@@ -1,6 +1,6 @@
 import streamlit as st
 
-def show_homepage():
+def show_home():
     st.markdown('''
     # Document AI Bot 💬📄
 
@@ -36,4 +36,4 @@ def show_homepage():
     ''')
 
 if __name__ == "__main__":
-    show_homepage()
+    show_home()
