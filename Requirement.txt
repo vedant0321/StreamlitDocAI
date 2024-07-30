@@ -1,1 +1,6 @@
-python -m pip install --upgrade streamlit-extras
+streamlit==1.22.0
+PyPDF2==3.0.1
+langchain==0.2.0
+langchain-community==0.2.0
+openai==0.27.0
+python-dotenv==1.0.0
