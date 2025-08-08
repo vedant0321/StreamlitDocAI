@@ -84,7 +84,7 @@ def main():
             
             if pdf_text:
                 st.write("PDF text extracted successfully. Generating summary...")
-                summarize_pdf(pdf_text)
+                summarize(pdf_text)
             else:
                 st.error("No text extracted from the PDF.")
         
